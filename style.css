@@ -1,0 +1,106 @@
+/* Estilo para DomainFreeCode - Geração de Subdomínio */
+
+body {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    font-family: 'Inter', Arial, sans-serif;
+    color: #f1f5f9;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #38bdf8;
+    margin: 0;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.form-container {
+    background: #1e293b;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px 0 #0f172a55;
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: #f1f5f9;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #f1f5f9;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #38bdf8;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(90deg, #38bdf8 0%, #0ea5e9 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0ea5e9 0%, #38bdf8 100%);
+}
+
+.result {
+    margin-top: 2rem;
+    background: #0f172a;
+    color: #38bdf8;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    font-size: 1.1rem;
+    text-align: center;
+    word-break: break-all;
+    box-shadow: 0 2px 12px 0 #0ea5e955;
+}
+
+@media (max-width: 500px) {
+    .form-container {
+        padding: 1.2rem 0.7rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+}
